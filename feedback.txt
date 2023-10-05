@@ -1,0 +1,49 @@
+GUI vs CLI
+
+Graphical
+User
+Interface
+
+Command
+Line
+Interface
+
+#git(파일 및 변경사항을 추적하는 작업을 수행)
+
+Working Directory 
+- Current project folder
+
+Repository
+- All tracked files and folders
+
+Commit
+- Code snapshot
+
+Branch
+- Where commits are stored
+
+git init
+- Repository 초기화
+
+git status
+- 현 git 프로젝트 정보를 확인할 수 있고(commit), 우리가 어디 Branch에 위치한지도 확인할 수 있다.(on Branch)
+
+git add .(추적해야할 파일명/.의 경우 전부를 일컬음)
+- 어떤 파일을 추적해야하는지 어떤 것이 다음 코드 스냅샷의 일부가 될 수 있는지 알려줘야 함.
+- 추적되는 파일은 staging구역(파일들이 모여있는 곳)에 추가된다.
+
+git commit -m "파일의 변경사항"
+- snapshot
+
+git config --global --edit
+- name / email 개인자격정보를 나타내는데 이것으로 편집하는 것은 아니다.
+- 나갈 떄는 Esc & :x
+
+git config --global user.name/user.email
+- name/email 확인
+
+git config --global user.name/user.email "변경할 이름"
+- name/email 변경
+
+git log
+- Branch 안에 있는 모든 commit의 개요를 확인할 수 있음.
