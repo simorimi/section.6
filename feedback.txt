@@ -61,3 +61,5 @@ git merge 이름
 - 현재 branch에 다른 branch를 병합할 때 
 
 head -> 가장 최근 branch
+
+q를 누르면 나온다.
