@@ -59,7 +59,8 @@ git checkout 이름 / git checkout -b 이름
 
 git merge 이름
 - 현재 branch에 다른 branch를 병합할 때 
+- 충돌이 있는 경우 새로운 것을 받아들이거나 지금을 유지하는 경우가 있는데 그렇게 수정을 한 이후 새로 commit을 생성한다
 
 head -> 가장 최근 branch
 
-q를 누르면 나온다.
+git log의 경우 q를 누르면 나온다.
