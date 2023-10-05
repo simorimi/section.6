@@ -98,5 +98,5 @@ delete
 - git rm 파일명 (이 경우 자동으로 commit됨)
 ㄴ 삭제하기 위해서는 정확한 경로로 이동 / 경로 이동의 경우는 cd를 이용한다
 
-git reset --hard HEAD~1
-- 헤드는 하나의 commit 뒤로 간다
+git reset --hard HEAD~숫자
+- 헤드는 숫자만큼 commit 뒤로 간다
