@@ -8,6 +8,31 @@ Command
 Line
 Interface
 
+#Cmd
+cd 폴더명\폴더명
+- 상대경로 / 폴더명으로 이동 
+
+cd /
+- 루트 디렉토리로 이동
+
+cd ..
+- 이전 폴더로 이동
+
+cd c:\Users\User\폴더명
+- 절대경로 / 폴더명으로 이동
+
+mkdir 폴더명
+- 폴더 생성
+
+rmdir 폴더명
+- 폴더 제거
+
+echo 내용 > 파일명.유형
+- 내용을 가진 파일 생성
+
+del 파일명.유형
+- 파일 제거
+
 #git(파일 및 변경사항을 추적하는 작업을 수행)
 
 Working Directory 
@@ -64,3 +89,14 @@ git merge 이름
 head -> 가장 최근 branch
 
 git log의 경우 q를 누르면 나온다.
+
+cls
+- clear
+
+delete
+- 그냥 마우스로 파일 삭제한 후 commit
+- git rm 파일명 (이 경우 자동으로 commit됨)
+ㄴ 삭제하기 위해서는 정확한 경로로 이동 / 경로 이동의 경우는 cd를 이용한다
+
+git reset --hard HEAD~1
+- 헤드는 하나의 commit 뒤로 간다
