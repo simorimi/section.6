@@ -100,3 +100,6 @@ delete
 
 git reset --hard HEAD~숫자
 - 헤드는 숫자만큼 commit 뒤로 간다
+
+git branch -D 브렌치이름
+- branch 삭제
