@@ -103,3 +103,9 @@ git reset --hard HEAD~숫자
 
 git branch -D 브렌치이름
 - branch 삭제
+
+git checkout -- .(혹은 파일명)
+- branch를 마지막 commit 단계로 리셋(staging하지 않은 상태)
+
+gir reset 파일명
+- staging 한 상태를 하지 않은 상태로 리셋
